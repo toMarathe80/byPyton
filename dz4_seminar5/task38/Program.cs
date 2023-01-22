@@ -13,7 +13,7 @@ for(int i = 0; i < array.Length; i+= 1) {
      Console.WriteLine();
      int max = array[0];
      int min = array[0];
-     for(int i=0; i<array.Length; i += 1) { 
+     for(int i = 0; i < array.Length; i += 1) { 
         if(max < array[i])  max = array[i];
         if(min > array[i])  min = array[i];
     }

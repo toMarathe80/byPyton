@@ -4,7 +4,7 @@
  Console.WriteLine("Введите цифрами день недели: ");
  int num = Convert.ToInt32(Console.ReadLine());
  
-    if (num > 8) {
+    if (num >= 8) {
       Console.WriteLine("Расчет только на семь дней");
     }
     else if (num != 6 && num != 7) {  

@@ -14,15 +14,11 @@ else {
         int temp = number % 10;
         numberReverse = numberReverse * 10 + temp; // если разбиваем число с помощью коэф.10, то можно обратно
         number = number / 10;
-        };
+        }
     if (numberReverse == numberCopy) {
         Console.WriteLine("Это палиндром!");
         }
     else { 
     Console.WriteLine("Это не палиндром!");
       }
-    };
-
-
-
-
+    }
