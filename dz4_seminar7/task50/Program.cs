@@ -20,7 +20,5 @@ int row = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите номер столбца (начинается с 0): ");
 int col = Convert.ToInt32(Console.ReadLine());
 
-if (row > rows && col <= cols)      Console.WriteLine("Такого адреса нет");
-else if (row <= rows && col > cols) Console.WriteLine("Такого адреса нет");
-else if (row > rows && col > cols) Console.WriteLine("Такого адреса нет");
-else                                Console.WriteLine(array[row,col]);
+if (row < rows && col < cols)     Console.WriteLine(array[row,col]);
+else                                Console.WriteLine("Такого адреса нет");
