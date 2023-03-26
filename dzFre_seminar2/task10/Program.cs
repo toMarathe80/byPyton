@@ -7,7 +7,6 @@
     if (num < 100 || num >= 1000) {  
     Console.WriteLine("число не 3-х значное");
     }
-    
     else {
     Console.WriteLine(num / 10 % 10);  
     }

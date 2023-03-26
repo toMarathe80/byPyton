@@ -11,5 +11,5 @@ if (number < 100) {
   while (number > 999) {
     number = number / 10;
   }
-  Console.WriteLine(number % 10);
+  Console.WriteLine(number / 10);
 }

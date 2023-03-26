@@ -3,11 +3,9 @@
 
 Console.Write("Введите натуральное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-void PrintNumbers(int number)
-{
+void PrintNumbers(int number) {
   if(number == 1) Console.WriteLine(number);
-  else 
-  {
+  else{
     Console.WriteLine(number);
     PrintNumbers(number-1);
   }

@@ -1,9 +1,7 @@
 ﻿// Семинар 8, задание 62
 // Заполнить 2-х мерный массив 4х4 "змейкой"
 void FillSryral(int[,] spyral) {
-    int currentNum = 1;
-    int i = 0;
-    int j = 0;
+    int currentNum = 1, i = 0, j = 0;
     while (currentNum <= 16) {
         spyral[i, j] = currentNum;
         currentNum++;
