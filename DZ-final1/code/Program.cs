@@ -10,5 +10,6 @@ for(int i = 0; i < array1.Length; i += 1){
         index += 1;        
     }
 }
+Console.WriteLine(string.Join(" ",array2));
 
 
